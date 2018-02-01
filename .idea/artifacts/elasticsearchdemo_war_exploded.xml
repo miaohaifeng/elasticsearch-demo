@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="elasticsearchdemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/elasticsearch-demo-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="elasticsearchdemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch:1.7.1" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-memory:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-highlighter:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-suggest:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-misc:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-join:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-grouping:4.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-spatial:4.10.4" />
+          <element id="library" level="project" name="Maven: com.spatial4j:spatial4j:0.4.1" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.5" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:4.1" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-commons:4.1" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.12" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/elasticsearch-demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="elasticsearchdemo/web/Web" />
+    </root>
+  </artifact>
+</component>
